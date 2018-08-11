@@ -1,0 +1,59 @@
+body{
+	text-align:center;         /*居中对齐*/
+}
+#container{
+	width:1280px;               /*宽度*/
+	margin:0 auto;             /*外边距*/
+	
+}
+p{
+	text-align:left;           /*左对齐*/
+	text-indent:2em;           /*首行缩进2个字符*/
+	font-size:18px;            /*字体大小*/
+	line-height:1;             /*行高*/
+}
+pre{
+	text-align:center;           /*居中对齐*/
+}
+h1{
+	font-size:36px;             /*字体大小*/
+	color:#ff5c00;		    /*颜色*/
+	font-family;
+}
+h2{
+	font-size:21px;              /*字体大小*/
+	text-indent:6em; 	     /*首行缩进*/
+	color:#2f4f4f;	             /*颜色*/
+}
+h3{
+	font-size:20px;              /*字体大小*/
+	text-align:left;           /*左对齐*/
+	color:#ff5c00;	             /*颜色*/
+	font-weight:bold;          /*粗体*/
+}
+h4{
+	font-size:18px;              /*字体大小*/
+	text-align:left;           /*左对齐*/
+	text-indent:8em; 	     /*首行缩进*/
+	color:#ff5c00;	             /*颜色*/
+	font-weight:bold;          /*粗体*/
+}
+p span{
+	font-weight:bold;          /*粗体*/
+	color:#4498ff;                /*颜色*/
+}
+img{
+	float:left;
+}
+footer{
+	foot-size:13px;	  /*字体大小*/
+	color:#AAA	/*颜色*/
+	line-height:1;	  /*行高*/
+}
+/*段落文字被选中时的样式*/
+p::selection{          
+	background-color:black;    /*背景色*/
+	color:white;               /*颜色*/
+}
+
+
